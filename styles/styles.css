@@ -1,0 +1,234 @@
+body {
+	font-family: 'roboto slab', serif;
+	background-color: #f2f6f5;
+	color: #212121;
+}
+
+.container {
+  width: 100%;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+header nav ul li {
+	display: inline-block;
+	font-size: 1.2em;
+	justify-content: center;
+	float: right;
+	padding-right: 2%;
+	margin-top: 3%;
+}
+
+ul.links {
+	margin-top: 4%;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+
+
+p.about {
+	font-size: 1.15em;
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 3%;
+}
+
+p.work {
+	font-size: 1.15em;
+	display: flex;
+	justify-content: flex-start;
+}
+
+ul.about {
+	padding-left: 3%;
+}
+
+p.imageText {
+	color: white;
+	font-size: 12em;
+	margin-bottom: 1%;
+	text-align: center;
+
+}
+
+p.subImage {
+	color: white;
+	font-size: 1.75em;
+	text-align: center;
+
+}
+
+p.subImage2 {
+	color: white;
+	font-size: 1em;
+	text-align: center;
+
+}
+
+div.image {
+	width: 100%;
+	height: 40%;
+	background-color: #f05023;
+	height: 500px;
+	margin-top: -10%;
+	padding-left: auto;
+	padding-right: auto;
+}
+
+div.orange {
+	background-color: #f05023;
+	height: 400px;
+	width: 50%;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	float: left;
+
+}
+
+p.orangeText {
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3em;
+}
+
+div.logo {
+	background-image: url(../images/logo.png);
+	margin-bottom: -7%;
+	width: 300px;
+	height: 145px;
+}
+
+h1 {
+	font-size: 2.75em;
+	margin-left: -6%;
+	margin-bottom: -7%;
+}
+
+h2 {
+	font-size: 2em;
+	color: #212121;
+	padding-left: 0;
+}
+
+h3.about {
+	font-size: 1.5em;
+	color: #f05023;
+	display: flex;
+	justify-content: flex-start;
+}
+
+h4.contactMe {
+	font-size: 1.25em;
+	padding-left: 0;
+}
+
+footer {
+	border-top: 1px solid gray;
+	margin-top: 20%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+div.about {
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	margin-bottom: 1%;
+	padding-top: 1%;
+	padding-bottom: 2%;
+	padding-left: 0;
+	margin-top: 7%;
+}
+
+div.aboutNoBorder {
+	border-top: 1px solid gray;
+	margin-bottom: 1%;
+	padding-top: 1%;
+	padding-bottom: 2%;
+	padding-left: 0;
+	margin-top: 7%;
+}
+
+
+span.about {
+	font-size: 1.5em;
+	color: #f05023;
+}
+
+div.previewParent {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 2%;
+}
+
+/*WORK STYLES*/
+
+.workPreviewBox {
+	width: 30%;
+}
+
+.workPreviewBox div {
+	width: 100%;
+	height: 320px;
+	background-size: cover;
+}
+
+div.workPreviewBox1 {
+	background-image: url(../images/campaigns.jpg);
+
+}
+
+div.workPreviewBox2 {
+	background-image: url(../images/eventinvitations.jpg);
+}
+
+div.workPreviewBox3 {
+	background-image: url(../images/newsletters.jpg);
+}
+
+div.campaign1 {
+	background-image: url(../images/campaigns1.jpg);
+	width: 30%;
+	height: 400px;
+	background-size: cover;
+
+}
+
+div.campaign2 {
+	background-image: url(../images/campaigns2.jpg);
+	width: 30%;
+	height: 400px;
+	background-size: cover;
+
+}
+
+div.campaign3 {
+	background-image: url(../images/campaigns3.jpg);
+	width: 30%;
+	height: 400px;
+	background-size: cover;
+
+}
+
+div.campaign4 {
+	background-image: url(../images/campaigns4.jpg);
+	width: 30%;
+	height: 400px;
+	background-size: cover;
+}
+
+div.campaign5 {
+	background-image: url(../images/campaigns5.jpg);
+	width: 30%;
+	height: 400px;
+	background-size: cover;
+}
+
+
+
+/*Jquery Styles*/
+
