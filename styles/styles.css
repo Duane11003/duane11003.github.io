@@ -49,6 +49,7 @@ p.imageText {
 	font-size: 12em;
 	margin-bottom: 1%;
 	text-align: center;
+	padding-top: 3%;
 
 }
 
@@ -69,9 +70,11 @@ p.subImage2 {
 div.image {
 	width: 100%;
 	height: 40%;
-	background-color: #f05023;
-	height: 500px;
-	margin-top: -10%;
+	background-image: url(../images/home-1.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 750px;
+	margin-top: 5%;
 	padding-left: auto;
 	padding-right: auto;
 }
@@ -163,6 +166,9 @@ div.previewParent {
 	display: flex;
 	justify-content: space-between;
 	margin-top: 2%;
+	padding-top: 40px;
+	align-items: center;
+
 }
 
 /*WORK STYLES*/
@@ -175,7 +181,28 @@ div.previewParent {
 	width: 100%;
 	height: 320px;
 	background-size: cover;
+	padding: 0 auto;
 }
+
+.workPreviewBox:hover #overlay {
+               opacity:1;}
+
+
+#overlay {
+	background-color: #f05023;
+	text-align: center;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	-webkit-transition: opacity .25s ease;
+	-moz-transition: opacity .25s ease;
+}
+
+#plus {
+	color: white;
+}
+
 
 div.workPreviewBox1 {
 	background-image: url(../images/campaigns.jpg);
@@ -228,6 +255,96 @@ div.campaign5 {
 	background-size: cover;
 }
 
+div.campaign6 {
+	background-color: #f2f6f5;
+	width: 30%;
+	height: 400px;
+	background-size: cover;
+}
+
+div.invite1 {
+	background-image: url(../images/invite1.fnl.jpg);
+	width: 30%;
+	height: 400px;
+	background-size: cover;
+}
+
+div.invite2 {
+	background-image: url(../images/invite2.fnl.jpg);
+	width: 30%;
+	height: 400px;
+	background-size: cover;
+}
+
+div.invite3 {
+	background-image: url(../images/invite3.fnl.jpg);
+	width: 30%;
+	height: 400px;
+	background-size: cover;
+}
+
+div.invite4 {
+	background-image: url(../images/invite4.fnl.jpg);
+	width: 30%;
+	height: 400px;
+	background-size: cover;
+}
+
+div.invite5 {
+	background-image: url(../images/invite5.fnl.jpg);
+	width: 30%;
+	height: 400px;
+	background-size: cover;
+}
+
+div.invite6 {
+	background-image: url(../images/invite6.fnl.jpg);
+	width: 30%;
+	height: 400px;
+	background-size: cover;
+}
+
+div.mag1 {
+	background-image: url(../images/mag1.jpg);
+	width: 30%;
+	height: 400px;
+	background-size: cover;
+}
+
+div.mag2 {
+	background-image: url(../images/mag2.jpg);
+	width: 30%;
+	height: 400px;
+	background-size: cover;
+}
+
+div.mag3 {
+	background-image: url(../images/mag3.jpg);
+	width: 30%;
+	height: 400px;
+	background-size: cover;
+}
+
+div.mag4 {
+	background-image: url(../images/mag4.jpg);
+	width: 30%;
+	height: 400px;
+	background-size: cover;
+}
+
+div.mag5 {
+	background-image: url(../images/mag5.jpg);
+	width: 30%;
+	height: 400px;
+	background-size: cover;
+}
+
+div.mag6 {
+	background-image: url(../images/mag6.jpg);
+	width: 30%;
+	height: 400px;
+	background-size: cover;
+}
 
 
 /*Jquery Styles*/
